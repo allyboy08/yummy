@@ -1,0 +1,15 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px dashed #e0e0e0;
+  font-family: Arial, sans-serif;
+}
+
+.item span {
+  font-size: 16px;
+}
+
+.price {
+  font-weight: bold;
+}

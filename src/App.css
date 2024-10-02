@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+
+
+.container {
+  padding: '10px';
+  max-width: '124px';
+  margin: 'auto';
+  font-family: 'Arial, sans-serif';
+}
+.header {
+  display: 'flex';
+  justify-content: 'space-between';
+  align-items: 'center';
+  padding-bottom: '10px';
+  border-bottom: '2px solid #e0e0e0';
+}
+.logoWrapper {
+  display: 'flex';
+  align-items: 'center';
+}
+.logo {
+  font-size: '24px';
+  font-weight: 'bold';
+  color: '#FF2D55';
+  margin-right: '20px';
+}
+.menuButton {
+  font-size: '24px';
+  background: 'none';
+  border: 'none';
+  cursor: 'pointer';
+}
+.mainLayout {
+  display: 'flex';
+}
